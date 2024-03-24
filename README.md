@@ -1,9 +1,9 @@
 # Ejercicio1
 
 primero haces un git branch clone y clonas el repositorio
-segundo te metes y haces un "git branch -a" y miras las ramas que estan en el otro repositorio
-tercero haces un "git checkout -a" para añadir la rama lo haces "origin/trilogia_original"
-Cuarto añadimos la rama "trilogia_original" a "main" con git merge "trilogia_original"
+segundo te metes y haces un 'git branch -a' y miras las ramas que estan en el otro repositorio
+tercero haces un "git checkout -a" para añadir la rama lo haces 'origin/trilogia_original'
+Cuarto añadimos la rama "trilogia_original" a "main" con git merge 'trilogia_original'
 Quinto en "trilogia_precuelas" hacemos un "git rebase main" nos aparecera conflictos vamos al archivo y los quitamos hacemos un "git add ." hacemos "git rebase --continue" arreglo conflictos y "git add ." lo hacemos hsata donde nos deje de salir conflictos
 Sexto cuando ya no nos da conflictos nos vamos a main "git chekout main" ahi hacemos  "git merge triloga_precuelas"
 Septimo es lo mismo "git checkout trilogia_secuelas" hacemos "git rebase main" y resolvemos conflictos y despues  "git rebase --continue " y "git add . " hasta que se resuelvan los conflictos aqui hay una trampa la quitas y ya 
